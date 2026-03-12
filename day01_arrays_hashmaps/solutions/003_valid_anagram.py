@@ -9,9 +9,19 @@ YOUR APPROACH:
   Time:
   Space:
 """
-
+from collections import defaultdict
 def is_anagram(s, t):
-    pass  # your code here
+    freq = defaultdict(int)
+    for char in s :
+        freq[char] +=1
+
+    freq_t = defaultdict(int)
+    for char in t :
+        freq_t[char] +=1 
+
+    return freq == freq_t
+
+
 
 # TESTS
 if __name__ == "__main__":

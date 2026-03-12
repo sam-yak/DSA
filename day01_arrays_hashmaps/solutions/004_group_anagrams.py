@@ -9,9 +9,16 @@ YOUR APPROACH:
   Time:
   Space:
 """
-
+from collections import defaultdict
 def group_anagrams(strs):
-    pass  # your code here
+    groups = defaultdict(list)
+    for s in strs:
+        sig = tuple(sorted(s))
+        groups[sig].append(s)   
+    return list(groups.values())
+
+
+        
 
 # TESTS
 if __name__ == "__main__":

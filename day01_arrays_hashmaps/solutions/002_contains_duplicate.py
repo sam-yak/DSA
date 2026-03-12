@@ -11,7 +11,13 @@ YOUR APPROACH:
 """
 
 def contains_duplicate(nums):
-    pass  # your code here
+    seen = set()
+    for num in nums:
+        if num in seen: 
+           return True
+        seen.add(num)
+    return False 
+  
 
 # TESTS
 if __name__ == "__main__":

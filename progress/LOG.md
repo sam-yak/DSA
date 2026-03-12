@@ -5,13 +5,33 @@ Track what clicked, what didn't, and what needs revisiting.
 ---
 
 ## Day 1 — Arrays & Hash Maps
-**Date:**
-**Hours spent:**
-**Problems attempted:**
+**Date:** March 13, 2026
+**Hours spent:** ~6-7 hrs
+**Problems attempted:** 6/6
 **Concepts that clicked:**
+- Hash map for O(1) lookups (Two Sum pattern)
+- Set for existence checking (Contains Duplicate)
+- Frequency counting with defaultdict(int) and Counter
+- Grouping with defaultdict(list) + signature keys
+- Why string += in a loop is O(n²) and how to fix with join()
+- Difference between data types and data structures
+- Mutable vs immutable and why it matters for dict keys
+
 **Concepts that need review:**
+- Prefix/suffix two-pass technique (Product Except Self)
+- Set + smart start detection (Longest Consecutive Sequence)
+- range() backwards: range(n-1, -1, -1)
+
 **Key mistakes made:**
-**Confidence level (1-10):**
+- Used If/Return instead of if/return (case sensitivity)
+- Used curly braces {} instead of square brackets [] for dict access
+- Used [] (list) instead of {} (dict) for frequency counting
+- Forgot to store seen[num] = i in Two Sum
+- Used = instead of *= in Product Except Self pass 2
+- Forgot to import defaultdict before using it
+- Used if/else with defaultdict (defeats the purpose)
+
+**Confidence level (1-10):** 6
 
 ---
 
@@ -147,7 +167,7 @@ Track what clicked, what didn't, and what needs revisiting.
 
 ---
 
-## Day 14–17 — Google Mix (Integration)
+## Day 14-17 — Google Mix (Integration)
 **Date range:**
 **Hours spent:**
 **Total problems attempted:**
@@ -166,7 +186,7 @@ Track what clicked, what didn't, and what needs revisiting.
 
 ---
 
-## Day 19–20 — Mock Interviews
+## Day 19-20 — Mock Interviews
 **Mock 1 result:**
 **Mock 2 result:**
 **Communication score (1-10):**
