@@ -1,4 +1,4 @@
-# 🎯 DSA Mastery — 21-Day Google SDE Interview Prep
+# 🎯 DSA Mastery — 21-Day Interview Prep
 
 > **Mission:** Go from rusty DSA to Google-interview-ready in 21 days.
 > **Commitment:** 6-8 hours/day · ~150 hours total
