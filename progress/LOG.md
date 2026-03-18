@@ -36,13 +36,32 @@ Track what clicked, what didn't, and what needs revisiting.
 ---
 
 ## Day 2 — Two Pointers & Sliding Window
-**Date:**
-**Hours spent:**
-**Problems attempted:**
+**Date:** March 14, 2026
+**Hours spent:** ~6-7 hrs
+**Problems attempted:** 6/6
 **Concepts that clicked:**
+- Two pointers opposite direction on sorted arrays
+- Why two pointers only works on sorted arrays (predictable direction)
+- Two pointers gives O(1) space vs hash map O(n) space
+- Sliding window with set for unique substring
+- Sliding window with freq dict for character replacement
+- Window length = right - left + 1
+- Running min for stock profit problem
+
 **Concepts that need review:**
+- 3Sum duplicate skipping logic (three places to skip)
+- Sliding window + freq dict (Longest Repeating Character Replacement)
+- Why stale max_freq doesn't produce wrong answers
+
 **Key mistakes made:**
-**Confidence level (1-10):**
+- Added positions instead of values (left + right vs nums[left] + nums[right])
+- Used = instead of == in if statement
+- Forgot .lower() in palindrome comparison
+- max() needs two arguments not one
+- Put max_length = 0 inside loop instead of before loop
+- Used if instead of while for shrinking window
+
+**Confidence level (1-10):** 6
 
 ---
 
