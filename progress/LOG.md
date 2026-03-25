@@ -66,13 +66,33 @@ Track what clicked, what didn't, and what needs revisiting.
 ---
 
 ## Day 3 — Stacks, Queues & Linked Lists
-**Date:**
-**Hours spent:**
-**Problems attempted:**
+**Date:** March 15, 2026
+**Hours spent:** ~6-7 hrs
+**Problems attempted:** 6/6
 **Concepts that clicked:**
+- Stack as LIFO using Python list (append/pop/[-1])
+- Stack for bracket matching pattern
+- Classes, objects, __init__, self
+- Linked list node structure (val + next)
+- Traversing linked lists with while current
+- Reverse linked list four-line swap (prev/curr/next)
+- Dummy node pattern for building linked lists
+- Fast/slow pointers for cycle detection and finding middle
+- Attaching remaining chain attaches ALL nodes automatically
+
 **Concepts that need review:**
+- Min Stack (two parallel stacks concept)
+- Reorder List (combining find mid + reverse + merge)
+- Merge two sorted lists (dummy node flow)
+
 **Key mistakes made:**
-**Confidence level (1-10):**
+- Used prev = 0 instead of prev = None
+- Returned curr instead of prev after reversing
+- Forgot self. inside class methods
+- Used elif without a condition
+- Used str as variable name
+
+**Confidence level (1-10):** 6
 
 ---
 

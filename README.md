@@ -1,4 +1,4 @@
-# 🎯 DSA Mastery — 21-Day Interview Prep
+# 🎯 DSA Mastery — 21-Day Google SDE Interview Prep
 
 > **Mission:** Go from rusty DSA to Google-interview-ready in 21 days.
 > **Commitment:** 6-8 hours/day · ~150 hours total
@@ -12,7 +12,7 @@
 |-----|-------|----------|-----------------|---------------|----------|--------|
 | 1  | Arrays & Hash Maps | 6 | 4 | 2 | 0 | ✅ Complete |
 | 2  | Two Pointers & Sliding Window | 6 | 3 | 3 | 0 | ✅ Complete |
-| 3  | Stacks, Queues & Linked Lists | 6 | - | - | - | ⬜ Not Started |
+| 3  | Stacks, Queues & Linked Lists | 6 | 3 | 3 | 0 | ✅ Complete |
 | 4  | Binary Search | 6 | - | - | - | ⬜ Not Started |
 | 5  | Trees (BT & BST) | 6 | - | - | - | ⬜ Not Started |
 | 6  | DFS & Backtracking | 5 | - | - | - | ⬜ Not Started |
