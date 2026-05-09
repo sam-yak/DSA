@@ -97,13 +97,31 @@ Track what clicked, what didn't, and what needs revisiting.
 ---
 
 ## Day 4 — Binary Search
-**Date:**
-**Hours spent:**
-**Problems attempted:**
+**Date:** March 16, 2026
+**Hours spent:** ~6 hrs
+**Problems attempted:** 6/6
 **Concepts that clicked:**
+- Standard binary search template (lo, hi, mid)
+- Why lo <= hi vs lo < hi (exact match vs narrowing)
+- Why hi = mid vs hi = mid - 1 (mid could be answer vs already checked)
+- Rotated array: one half is always sorted
+- 2D matrix flattening with // and % (math naturally gives 0-based positions)
+- Binary search on answer space (Koko Bananas)
+- Compare with nums[hi] not nums[lo] for rotated min
+
 **Concepts that need review:**
+- Search in Rotated Array (which half is sorted logic)
+- Binary search on answer space pattern
+- When to use lo <= hi vs lo < hi
+
 **Key mistakes made:**
-**Confidence level (1-10):**
+- Compared mid (index) instead of nums[mid] (value) — multiple times
+- Used high instead of hi (variable name typo)
+- Swapped lo and hi updates in elif/else
+- Used Return instead of return
+- Used <= instead of < in elif after equality check
+
+**Confidence level (1-10):** 7
 
 ---
 
