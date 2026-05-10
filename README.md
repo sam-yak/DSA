@@ -14,7 +14,7 @@
 | 2  | Two Pointers & Sliding Window | 6 | 3 | 3 | 0 | ✅ Complete |
 | 3  | Stacks, Queues & Linked Lists | 6 | 3 | 3 | 0 | ✅ Complete |
 | 4  | Binary Search | 6 | 3 | 3 | 0 | ✅ Complete |
-| 5  | Trees (BT & BST) | 6 | - | - | - | ⬜ Not Started |
+| 5  | Trees (BT & BST) | 6 | 6 | 0 | 0 | ✅ Complete |
 | 6  | DFS & Backtracking | 5 | - | - | - | ⬜ Not Started |
 | 7  | BFS & Graph Traversal | 5 | - | - | - | ⬜ Not Started |
 | 8  | Advanced Graphs | 5 | - | - | - | ⬜ Not Started |

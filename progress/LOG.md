@@ -126,13 +126,29 @@ Track what clicked, what didn't, and what needs revisiting.
 ---
 
 ## Day 5 — Trees (BT & BST)
-**Date:**
-**Hours spent:**
-**Problems attempted:**
+**Date:** March 17, 2026
+**Hours spent:** ~6 hrs
+**Problems attempted:** 6/6
 **Concepts that clicked:**
+- TreeNode structure (val, left, right)
+- Base case: if not node always needed in recursion
+- DFS recursion pattern for trees
+- BFS with queue and level_size for level order
+- Helper function with range bounds for BST validation
+- BST property for LCA (both left/both right/split)
+- True bubbles up only if all checks pass through `and`
+- Always compare .val not node objects
+
 **Concepts that need review:**
+- None — best day yet, all 6 clean!
+
 **Key mistakes made:**
-**Confidence level (1-10):**
+- Swapped root.left, root.right = root.left, root.right (no actual swap)
+- Returned None instead of 0 in max_depth
+- Forgot .val on comparisons multiple times
+- Put function inside class accidentally
+
+**Confidence level (1-10):** 8
 
 ---
 
