@@ -153,13 +153,25 @@ Track what clicked, what didn't, and what needs revisiting.
 ---
 
 ## Day 6 — DFS & Backtracking
-**Date:**
-**Hours spent:**
-**Problems attempted:**
+**Date:** March 18, 2026
+**Hours spent:** ~6 hrs
+**Problems attempted:** 5/5
 **Concepts that clicked:**
+- Backtracking template: choose, explore, unchoose
+- Subsets: i+1 (forward only), save at every step
+- Permutations: loop all, skip used, save when complete
+- Combination Sum: i (reuse), track remaining target
+- DFS on grid: mark visited with '#', restore after
+- N-Queens: track cols and diagonals with sets
+- Backtracking IS DFS on a decision tree
+
 **Concepts that need review:**
+- N-Queens diagonal tracking (row+col, row-col)
+
 **Key mistakes made:**
-**Confidence level (1-10):**
+- Minor syntax issues only — logic was strong today
+
+**Confidence level (1-10):** 8
 
 ---
 
